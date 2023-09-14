@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>23020776D_Drink Ordering Form</title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+    <body>
+        <header><h1>Drink Ordering System</h1></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="currentPage"><a href="#">Order</a></li>
+                <li><a href="#">Menu</a></li>
+                <style>
+                    li {
+                        color:black;
+                        list-style-type: square;
+                    }
+                </style>
+            </ul>
+        </nav>
+        <main>
+            <form action="#" method="POST">
+                <div class="name-input">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required/>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select name="drink" id="drink">
+                        <option>Bubble Milktea</option>
+                        <option>Iced Latte</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                    <input type="radio" name="size" id="small"/>
+                    <label for="samll">Samll</label>
+                    <input type="radio" name="size" id="medium"/>
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="size" id="large"/>
+                    <label for="large">Large</label>
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order"/>
+                </div>
+            </form>
+        </main>
+
+
+
+      <footer>
+        <h4>© &lt23020776D&gt &ltHUI Siu Ming&gt - EIE4432 Lab 1 Project   
+            <p>
+            <script type="text/javascript">
+            <!--
+            var currentTime = new Date()
+            var month = currentTime.getMonth() + 1
+            var day = currentTime.getDate()
+            var year = currentTime.getFullYear()
+            document.write(month + "/" + day + "/" + year)
+            //-->
+            </script>
+            <script type="text/javascript">
+            <!--
+            var currentTime = new Date()
+            var hours = currentTime.getHours()
+            var minutes = currentTime.getMinutes()
+            if (minutes < 10){
+            minutes = "0" + minutes
+            }
+            document.write(hours + ":" + minutes + " ")
+            if(hours > 11){
+            document.write("PM")
+            } else {
+            document.write("AM")
+            }
+            //-->
+            </script>
+            </p>
+        </h4>
+        
+      </footer>
+
+    </body>
+</html>
